@@ -1,0 +1,50 @@
+# FROM python:3.9-slim
+
+# # Set working directory
+# WORKDIR /app
+
+# # Install system dependencies
+# RUN apt-get update && apt-get install -y \
+#     build-essential \
+#     curl \
+#     software-properties-common \
+#     git \
+#     portaudio19-dev \
+#     python3-pyaudio \
+#     python3-venv \
+#     && rm -rf /var/lib/apt/lists/*
+
+# # Create a virtual environment
+# RUN python3 -m venv /opt/venv
+# ENV PATH="/opt/venv/bin:$PATH"
+
+# # Upgrade pip
+# RUN pip install --upgrade pip
+
+# # Copy requirements first to leverage Docker cache
+# COPY qdrant_files/requirements.txt .
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# # Copy require.txt and install additional requirements
+# COPY qdrant_files/require.txt .
+# RUN pip install --no-cache-dir -r require.txt
+
+# # Install additional voice-related packages
+# RUN pip install --no-cache-dir \
+#     streamlit-webrtc \
+#     sounddevice \
+#     soundfile \
+#     "elevenlabs==0.3.0b0" \
+#     python-dotenv \
+#     pydantic \
+#     pyaudio \
+#     wave
+
+# # Copy the rest of the application
+# COPY qdrant_files/ .
+
+# # Expose the port
+# EXPOSE 8502
+
+# # Set the command to run the voice bot
+# CMD ["streamlit", "run", "voice_bot.py", "--server.port=8502"]

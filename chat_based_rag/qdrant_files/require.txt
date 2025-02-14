@@ -1,0 +1,19 @@
+# Core Voice Bot Dependencies
+streamlit==1.32.2
+python-dotenv==1.0.1
+sounddevice==0.4.6
+numpy==1.26.4
+elevenlabs==0.3.0b0
+assemblyai==0.19.2
+scipy==1.12.0
+streamlit-webrtc==0.47.1
+
+# AI and Language Processing
+pydantic==1.10.7
+langchain==0.3.16
+langchain-core==0.3.33
+transformers==4.38.2
+sentence-transformers==2.7.0
+
+# Utility Imports
+typing-extensions==4.10.0

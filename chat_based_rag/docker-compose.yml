@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    depends_on:
+      - qdrant
+    environment:
+      - POSTGRES_HOST=drug-data-analysis_a04f6f-postgres-1
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=mms_dbs
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+    networks:
+      - app-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # voice-bot:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.voice
+  #   ports:
+  #     - "8502:8502"
+  #   depends_on:
+  #     - qdrant
+  #     - app
+  #   environment:
+  #     - POSTGRES_HOST=drug-data-analysis_a04f6f-postgres-1
+  #     - POSTGRES_PORT=5432
+  #     - POSTGRES_DB=mms_dbs
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=postgres
+  #     - QDRANT_HOST=qdrant
+  #     - QDRANT_PORT=6334
+  #   networks:
+  #     - app-network
+  #   extra_hosts:
+  #     - "host.docker.internal:host-gateway"
+
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "6334:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    name: drug-data-analysis_a04f6f_airflow
+    external: true
+
+volumes:
+  qdrant_data:
