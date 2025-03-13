@@ -24,12 +24,14 @@ Before installing LM Studio, ensure your system meets the following requirements
 1. Locate the downloaded installer file.
 2. Double-click the installer to begin the installation process.
 3. Follow the on-screen instructions to complete the installation.
-   
-5. Click the **Next** button and accept the default installation location. The installation may take some time.
-6. Once the installation is complete, launch LM Studio.
+   ![image (2)](https://github.com/user-attachments/assets/38f97df6-9294-47b7-b920-b99c0b7cf258)
+4. Click the **Next** button and accept the default installation location. The installation may take some time.
+   ![image (5)](https://github.com/user-attachments/assets/056d3ae2-448c-4f23-a226-cf8f1862e85d)
+5. Once the installation is complete, launch LM Studio.
 
 ### Step 3: Onboarding
 - In LM Studio, click **"Get Your First LLM"**.
+  ![image (3)](https://github.com/user-attachments/assets/ac4004c6-c82e-403f-8ebc-eb7595eb6184)
 - This will guide you to a screen showing example models like **DeepSeek R1**.
 - Select the model and proceed with the download to get started.
 
@@ -39,6 +41,7 @@ Before installing LM Studio, ensure your system meets the following requirements
 3. Type **"DeepSeek R1"** and press Enter.
 4. Browse the search results to find the DeepSeek model.
 5. Select the DeepSeek model from the search results.
+   ![image (4)](https://github.com/user-attachments/assets/1374cab4-b549-4484-a698-795a100311af)
 6. Click the **Download** button.
 7. Wait for the download to complete.
 
