@@ -50,7 +50,9 @@ Before installing LM Studio, ensure your system meets the following requirements
 ### Step 5: Run the DeepSeek Model
 1. Open LM Studio and go to the top search section.
 2. Select the DeepSeek model and follow the configuration instructions.
+   ![image](https://github.com/user-attachments/assets/12f1d7a5-7856-4fd1-8cbb-04de08087fd7)
 3. Once configured, click **"Load Model"** to start using the DeepSeek model.
+   
 
 ## Troubleshooting
 - **Installation Issues:** Ensure your system meets all requirements and try reinstalling LM Studio.
