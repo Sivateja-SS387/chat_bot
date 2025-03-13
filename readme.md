@@ -24,8 +24,9 @@ Before installing LM Studio, ensure your system meets the following requirements
 1. Locate the downloaded installer file.
 2. Double-click the installer to begin the installation process.
 3. Follow the on-screen instructions to complete the installation.
-4. Click the **Next** button and accept the default installation location. The installation may take some time.
-5. Once the installation is complete, launch LM Studio.
+   
+5. Click the **Next** button and accept the default installation location. The installation may take some time.
+6. Once the installation is complete, launch LM Studio.
 
 ### Step 3: Onboarding
 - In LM Studio, click **"Get Your First LLM"**.
