@@ -11,6 +11,8 @@ Before installing LM Studio, ensure your system meets the following requirements
 - **RAM:** Minimum 8 GB.
 - **Disk Space:** At least 10 GB of free space.
 - **Internet Connection:** Required for downloading the model.
+- ![image](https://github.com/user-attachments/assets/d11c8a78-992f-4c59-aaa5-bd029f6a1030)
+
 
 ## Installation Steps
 
