@@ -103,3 +103,14 @@ This guide will walk you through the process of downloading and installing Visua
   - VS Code offers a wide range of extensions to enhance your development experience. Explore the Extensions Marketplace to find tools that suit your needs.
 
 By following these steps, you will have Visual Studio Code installed with the Jupyter Notebook extension, enabling you to work with Jupyter Notebooks directly within VS Code.
+
+
+
+
+
+![vscode](https://github.com/user-attachments/assets/411d0260-54ec-40a3-aea1-0a1ea741935e)
+![kernel](https://github.com/user-attachments/assets/eabff026-c833-41b6-87a5-33352de6ce18)
+![jupyer_notebook](https://github.com/user-attachments/assets/0a3c1bec-de30-4dd8-b010-6b8c1182c22e)
+![gvp_evnv](https://github.com/user-attachments/assets/8053a0ff-d6df-44a0-ac18-a20e6cfe43f7)
+![gven](https://github.com/user-attachments/assets/9c9e5fc1-d68b-4614-91c4-f8e2b6d00214)
+
