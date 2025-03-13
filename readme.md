@@ -52,6 +52,8 @@ Before installing LM Studio, ensure your system meets the following requirements
 2. Select the DeepSeek model and follow the configuration instructions.
    ![image](https://github.com/user-attachments/assets/12f1d7a5-7856-4fd1-8cbb-04de08087fd7)
 3. Once configured, click **"Load Model"** to start using the DeepSeek model.
+   ![image](https://github.com/user-attachments/assets/0627c97b-7b92-4105-af65-f60a6e3f0af3)
+
    
 
 ## Troubleshooting
@@ -87,6 +89,8 @@ This guide will walk you through the process of downloading and installing Visua
    - In VS Code, click on the **Extensions** icon in the Activity Bar on the side of the window or press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS).
 2. **Search for Jupyter Extension:**
    - In the Extensions view search box, type **"Jupyter"** to find the Jupyter extension.
+     ![image](https://github.com/user-attachments/assets/1f4e7703-d2c1-4143-8448-153de2e2ea7e)
+
 3. **Install the Jupyter Extension:**
    - Click on the **"Install"** button next to the Jupyter extension by Microsoft.
 4. **Verify Installation:**
