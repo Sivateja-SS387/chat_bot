@@ -34,6 +34,8 @@ Before installing LM Studio, ensure your system meets the following requirements
   ![image (3)](https://github.com/user-attachments/assets/ac4004c6-c82e-403f-8ebc-eb7595eb6184)
 - This will guide you to a screen showing example models like **DeepSeek R1**.
 - Select the model and proceed with the download to get started.
+  ![image (4)](https://github.com/user-attachments/assets/1374cab4-b549-4484-a698-795a100311af)
+
 
 ### Step 4: Download the DeepSeek Model (If Onboarding is Skipped)
 1. Open LM Studio.
@@ -41,7 +43,7 @@ Before installing LM Studio, ensure your system meets the following requirements
 3. Type **"DeepSeek R1"** and press Enter.
 4. Browse the search results to find the DeepSeek model.
 5. Select the DeepSeek model from the search results.
-   ![image (4)](https://github.com/user-attachments/assets/1374cab4-b549-4484-a698-795a100311af)
+   ![LLAMA](https://github.com/user-attachments/assets/fb39672d-77ea-435b-924f-818121c45d11)
 6. Click the **Download** button.
 7. Wait for the download to complete.
 
